@@ -5,11 +5,11 @@ SSL_CERT_FILE="/etc/openxpki/tls/endentity/openxpki.crt"
 SSL_KEY_FILE="/etc/openxpki/tls/private/openxpki.pem"
 
 # subj for self-signed certificate
-CERT_SUBJ="/CN=OpenXPKI Test"
+CERT_SUBJ="/CN=MikeOsude CA"
 # host names:
 DNS1="DNS.1 = localhost"
-DNS2="DNS.2 = openxpki"
-DNS3=""
+DNS2="DNS.2 = cert.mikeosude.com"
+DNS3="DNS. = mikeosude.com"
 
 # cleanup pid file for apache
 rm -f /run/apache2/apache2.pid
